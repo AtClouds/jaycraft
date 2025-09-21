@@ -1,0 +1,1234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!--------------------- Add all images --------------------->
+    <link rel="preload" as="image" href="/image/bg-1.png" />
+    <link rel="preload" as="image" href="/image/bg-2.png" />
+    <link rel="preload" as="image" href="/image/bg-3.png" />
+    <link rel="preload" as="image" href="/image/bg-4.png" />
+    <link rel="preload" as="image" href="/image/bg-5.png" />
+    <link rel="preload" as="image" href="/image/bg-6.png" />
+     <link rel="preload" as="image" href="/image/bg-7.png" />
+
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+         rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+    <!-------------------- Load Tippy.js ---------------                         --------->
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://unpkg.com/tippy.js@6"></script>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome (for icons) -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <!-- Lucide Icons CDN -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+    <title>Portfolio</title>
+</head>
+<body>
+
+     <!-----------------background-slideshow---------------------->
+    
+     <div class="background-slideshow"></div>
+
+
+
+        <!-----------------section---------------------->
+        <section id="home-icon">
+           
+         <!-------------------home-top-bar-------------------------->
+            <div class="home-top-bar no-anim">
+                  <div class="welcome-bar no-anim">
+                    <div id="greeting-message" class="greeting hidden no-anim"></div>
+
+                    <div class="toggle-container no-anim">                         
+                        <label class="switch">
+                            <input type="checkbox" checked  >
+                            <span class="slider-btn"></span>
+                        </label>
+                        </div>
+                   </div>
+                   
+            </div>
+         <!-------------------home-main----------------------------->
+            <div class="home-main">
+            <!-------------------home-left-bar----------------------------->
+                    <div class="home-left-bar">
+                        <div class="box-profile main-info">
+                            <div class="profile-pic">
+                                <img src="/image/Profile.svg" alt="profile-pic">
+                            </div>
+                            <div class="profile-name  " >
+                                <h2>Honour Joshua</h2>
+                                <p>Font-end Developer</p>
+                            </div>
+                            <div class="social-media ">
+                                <img src="/image/Facebook (1).svg" alt="Facebook">
+                                <img src="/image/Instagram.svg" alt="Instagram">
+                                <img src="/image/Twitter.svg" alt="Twitter">
+                                <img src="/image/Linkeding.svg" alt="Linkedin">
+                                <img src="/image/Youtube.svg" alt="Youtube">
+                                <img src="/image//Dribbble.svg" alt="">
+                            </div>
+
+                        </div>
+                        <div class="box-profile">
+                            <div class="data">
+                                <div class="data-txt"><p>Age:</p></div>
+                                <div class="data-input no-anim"><p>24</p></div>
+                            </div>
+                             <div class="data">
+                                <div class="data-txt"><p>Residence:</p></div>
+                                <div class="data-input no-anim"><p>Nigeria</p></div>
+                            </div>
+                             <div class="data">
+                                <div class="data-txt"><p>Freelance:</p></div>
+                                <div class="data-input green no-anim"><p>Available</p></div>
+                            </div>
+                             <div class="data">
+                                <div class="data-txt"><p>Address:</p></div>
+                                <div class="data-input no-anim"><p>Remote </p></div>
+                            </div>
+                        </div>
+
+                        <div class="box-profile languages-bar">
+                            <h2>Languages</h2>
+                            <div class="languages-progress">
+                                <span>French</span> 
+                                <div><div class="french"></div></div>
+                                 <span class="percent">10%</span>
+                            </div>
+                            <div class="languages-progress">
+                                <span>English</span> 
+                                <div><div class="english"></div></div>
+                                 <span class="percent">90%</span>
+                            </div>
+                            <div class="languages-progress">
+                                <span>General</span> 
+                                <div><div class="general"></div></div>
+                                 <span class="percent">50%</span>
+                            </div>
+                       </div>
+
+                       <div class="box-profile skill-progresbar">
+                        <h2>Skills</h2>
+                            <div class="skill-progress">
+                                <span>Html</span> 
+                                <div><div class="html"></div></div>
+                                 <span class="percent">70%</span>
+                            </div>
+                            <div class="skill-progress">
+                                <span>CSS</span> 
+                                <div><div class="css"></div></div>
+                                 <span class="percent">60%</span>
+                            </div>
+                            <div class="skill-progress">
+                                <span>Js</span> 
+                                <div><div class="js"></div></div>
+                                 <span class="percent">20%</span>
+                            </div>
+                            <div class="skill-progress">
+                                <span>PHP</span> 
+                                <div><div class="php"></div></div>
+                                 <span class="percent">5%</span>
+                            </div>
+                            <div class="skill-progress">
+                                <span>WordPress</span> 
+                                <div><div class="wordpress"></div></div>
+                                 <span class="percent">2%</span>
+                            </div>
+                            
+                       </div>
+
+
+                       <div class="box-profile Extra-Skills">
+                            <h2>Extra Skills</h2>
+                            <div class="extra-s">
+                                <img src="/image/Icons.svg" alt="skill-icon">
+                                <p>Bootstrap, Materialize</p>
+                            </div>
+                             <div class="extra-s">
+                                <img src="/image/Icons.svg" alt="skill-icon">
+                                <p>Stylus, Sass, Less</p>
+                            </div>
+                             <div class="extra-s">
+                                <img src="/image/Icons.svg" alt="skill-icon">
+                                <p>Gulp, Webpack, Grunt</p>
+                            </div>
+                             <div class="extra-s">
+                                <img src="/image/Icons.svg" alt="skill-icon">
+                                <p>GIT Knowledge</p>
+                            </div>
+                       </div>
+
+                       <div class="box-profile download-cv">
+                        <h5>Download cv</h5>
+                        <img src="/image/download.svg" alt="download">
+                       </div>
+
+
+                        </div>
+
+
+                  
+            <!-------------------home-middle-content----------------------------->
+                    <div class="home-middle-content">
+                        <div class="box-main main-content">
+                            <div class="content " >
+                                
+                                <h1>
+                                    I’m Honour Joshua <span>Front-end</span> Developer
+                                </h1>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing
+                                     elit. Et, volutpat feugiat placerat lobortis.
+                                      Natoque rutrum semper sed suspendisse nunc lectus.
+                                </p>
+                               <div id="hireMeBtn" class="btn-home">
+                                <div class="hire-btn">HIRE ME</div>
+                                <div class="direction-btn">  <img src="/image/Vector.svg" alt="arrow"></div>
+                              
+                               </div>
+                            </div>
+                            <div class="main-pic">
+                                <img src="/image/Your Image 1.svg" alt="">
+                            </div>  
+                        </div>
+                        <!----------------------My Services---------------------------->
+                        <div id="service-icon" class="box-main my-services">
+                            <h2>My Services</h2>
+                            <div class="service-context">
+                                
+                            </div>
+                            <p>Amet minim mollit non deserunt
+                            ullamco est sit aliqua dolor <br> do amet sint.
+                             Velit officia consequat duis enim velit mollit.<br>
+                              lorem ipsum</p>
+
+                              <div class="services">
+                                <div class="service-display">
+                                    <div class="service-box badtle" data-speed="0.04">
+                                     <i data-lucide="code"  class="w-20 h-20"></i>
+                                      <h5 class="title-services">Front-End Development</h5>
+                                        <p >
+                                        I build modern, responsive websites using HTML, CSS, JavaScript,
+                                         and frameworks that ensure speed, accessibility, and clean design.
+                                        </p>
+                                    </div>
+                                     <div class="service-box">
+                                        <i data-lucide="figma"  class="w-20 h-20"></i>
+                                         <h5 class="title-services">Convert Figma to Code</h5>
+                                        <p>Turning your Figma designs into pixel-perfect, production-ready websites.</p>
+                                    </div>
+                                     <div class="service-box">
+                                        <i data-lucide="monitor" class="w-20 h-20"></i>
+                                         <h5 class="title-services">Portfolio/Website Development</h5>
+                                        <p>Creating modern portfolios and websites tailored to your goals and brand.</p>
+                                    </div>
+                              </div>
+
+
+                              <div class="service-display">
+                                    <div class="service-box">
+                                        <i data-lucide="book-open"  class="w-20 h-20"></i>
+                                         <h5 class="title-services">Tutoring & Guidance</h5>
+                                        <p>Helping beginners learn web development through 
+                                            step-by-step teaching and mentoring.</p>
+                                    </div>
+                                    <div class="service-box">
+                                        <i data-lucide="wrench"  class="w-20 h-20"></i>
+                                        <h5 class="title-services">Website Maintenance</h5>
+                                        <p>Ensuring your website runs smoothly with regular updates and fixes.</p>
+                                    </div>
+                                    <div class="service-box">
+                                         <i data-lucide="palette"  class="w-20 h-20"></i>
+                                        <h5 class="title-services">Graphics Design</h5>
+                                        <p>Designing creative visuals, banners, and
+                                            branding assets that stand out.</p>                
+                                    </div>
+                              </div>
+                        </div>
+                    </div>
+                    </div>
+
+
+             <!-------------------home-right-navbar-----------------------------> 
+                    <div class="home-right-navbar no-anim">
+
+                        <div class="desktop-toggle dark-light-toggle no-anim">
+                            <img src="/image/Contrast.svg " alt="Contrast">
+
+                        </div>
+
+                         <button class="mobile-nav-toggle no-anim"
+                         aria-controls="primary-nav " aria-expanded="false">
+                        <img src="/image/humbuger-close.png" alt="Close" class="close-icon sr-only no-anim">
+                         <img src="/image/humbuger-menu.png" alt="Menu" class="menu-icon no-anim">
+                        </button>
+                        <nav>
+                         <ul id="primary-nav"  data-visible="false" class="primary-nav flex no-anim">
+
+                         <li><a href="#" data-target="home-icon" class="nav-link no-anim" data-tippy-content="Home">
+                        <span class="nav-text" data-target="home-icon">Home</span>
+                                    <svg class="icon animated-bounce-slide"  width="50" height="50" viewBox="0 0 22 22" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_2_588)">
+                                <path d="M15 14.9999C15 15.1989 14.921 15.3896 14.7803 15.5303C14.6397 15.6709 14.4489 15.7499 
+                                14.25 15.7499H3.75C3.55109 15.7499 3.36032 15.6709 3.21967 15.5303C3.07902 15.3896 3 15.1989 3
+                                 14.9999V8.24994H0.75L8.49525 1.20894C8.63333 1.0833 8.81331 1.01367 9 1.01367C9.18669 1.01367 
+                                 9.36667 1.0833 9.50475 1.20894L17.25 8.24994H15V14.9999Z" fill="currentColor"/>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0_2_588">
+                                <rect width="18" height="18" fill="white"/>
+                                </clipPath>
+                                </defs>
+                                </svg>
+                            
+                             </a></li>  
+
+                            <li><a href="#" data-target="service-icon" class="nav-link" data-tippy-content="Services">                          
+                              <span class="nav-text" data-target="service-icon">Services</span>
+                              <svg class="icon animated-bounce-slide"  width="50" height="50" viewBox="0 0 22 22" fill="none" 
+                              xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_2_592)">
+                                <path d="M17.5 4.28699V4.5H12V0H12.2603C12.5338 0 12.7962 0.0889101 12.9896 0.247113L17.198 
+                                3.69035C17.3913 3.8486 17.5 4.06321 17.5 4.28699ZM11.6562 5.625C11.0891 5.625 10.625 5.24531 10.625 
+                                4.78125V0H2.03125C1.4617 0 1 0.377754 1 0.84375V17.1562C1 17.6222 1.4617 18 2.03125 18H16.4688C17.0383 
+                                18 17.5 17.6222 17.5 17.1562V5.625H11.6562ZM6.29401 14.0803C6.27317 14.0984 6.24815 14.1131 6.22039
+                                 14.1234C6.19263 14.1337 6.16266 14.1394 6.13221 14.1402C6.10175 14.141 6.0714 14.1368 6.04289 14.1281C6.01437 
+                                 14.1193 5.98826 14.106 5.96603 14.0889L3.17882 11.951C3.15567 11.9332 3.13722 11.9118 3.1246 11.888C3.11199 
+                                 11.8641 3.10548 11.8384 3.10548 11.8125C3.10548 11.7865 3.11199 11.7608 3.1246 11.737C3.13722 11.7132 3.15567 
+                                 11.6917 3.17882 11.674L5.96603 9.53606C5.98826 9.51901 6.01437 9.50571 6.04289 9.49691C6.0714 9.48812 6.10175 
+                                 9.484 6.13221 9.48481C6.16266 9.48561 6.19263 9.49131 6.22039 9.50159C6.24815 9.51187 6.27317 9.52652 6.29401 
+                                 9.54471L7.13529 10.2789C7.15655 10.2975 7.17304 10.3194 7.18377 10.3432C7.19451 10.3671 7.19927 10.3925 7.19778 
+                                 10.4179C7.19629 10.4433 7.18858 10.4682 7.1751 10.4911C7.16161 10.514 7.14264 10.5345 7.11931 10.5513L5.36777 
+                                 11.8125L7.11931 13.0737C7.14264 13.0905 7.16161 13.111 7.1751 13.1339C7.18858 13.1568 7.19629 13.1817 7.19778
+                                  13.2071C7.19927 13.2325 7.19451 13.2579 7.18377 13.2818C7.17304 13.3056 7.15655 13.3275 7.13529 13.3461L6.29401 
+                                  14.0803ZM8.49809 15.8549L7.31847 15.5747C7.25937 15.5607 7.20951 15.528 7.17985 15.4839C7.15019 15.4398 7.14316 
+                                  15.3878 7.1603 15.3394L9.8003 7.89947C9.81747 7.85112 9.85741 7.81032 9.91133 7.78606C9.96525 7.76179 10.0287 
+                                  7.75603 10.0878 7.77006L11.2674 8.05025C11.2967 8.05721 11.324 8.06881 11.3478 8.08439C11.3716 8.09998 11.3914 
+                                  8.11924 11.406 8.14109C11.4207 8.16294 11.43 8.18694 11.4334 8.21172C11.4367 8.2365 11.434 8.26158 11.4256 
+                                  8.28552L8.78555 15.7255C8.77707 15.7494 8.76291 15.7718 8.74387 15.7913C8.72483 15.8107 8.70129 15.8269 8.6746 
+                                  15.8389C8.6479 15.851 8.61857 15.8586 8.58829 15.8613C8.558 15.864 8.52735 15.8619 8.49809 15.8549ZM15.4071
+                                   11.951L12.6199 14.0889C12.5977 14.106 12.5716 14.1193 12.5431 14.1281C12.5145 14.1368 12.4842 14.141 12.4537 
+                                   14.1402C12.4233 14.1394 12.3933 14.1337 12.3655 14.1234C12.3378 14.1131 12.3128 14.0984 12.2919 14.0803L11.4506 
+                                   13.346C11.4293 13.3275 11.4129 13.3056 11.4021 13.2817C11.3914 13.2579 11.3866 13.2325 11.3881 13.2071C11.3896 
+                                   13.1817 11.3973 13.1568 11.4108 13.1338C11.4243 13.1109 11.4433 13.0905 11.4666 13.0737L13.2182 11.8125L11.4666 
+                                   10.5513C11.4433 10.5345 11.4243 10.514 11.4108 10.4911C11.3974 10.4682 11.3896 10.4433 11.3882 10.4179C11.3867 
+                                   10.3925 11.3914 10.3671 11.4022 10.3432C11.4129 10.3194 11.4294 10.2975 11.4506 10.2789L12.292 9.54471C12.3128 
+                                   9.52652 12.3378 9.51187 12.3656 9.50159C12.3934 9.49131 12.4233 9.48561 12.4538 9.48481C12.4842 9.484 12.5146 
+                                   9.48812 12.5431 9.49691C12.5716 9.50571 12.5977 9.51901 12.62 9.53606L15.4072 11.674C15.4303 11.6917 15.4488 
+                                   11.7132 15.4614 11.737C15.474 11.7608 15.4805 11.7865 15.4805 11.8125C15.4805 11.8385 15.474 11.8641 15.4613 
+                                   11.888C15.4487 11.9118 15.4303 11.9332 15.4071 11.951Z" fill="currentColor"/>
+                                </g>
+                                 <defs>
+                            <clipPath id="clip0_2_592">
+                            <rect width="16.5" height="18" fill="white" transform="translate(1)"/>
+                            </clipPath>
+                            </defs>
+                            </svg>
+
+                         </a></li>   
+                          <li><a href="#" class="nav-link" data-target="education" data-tippy-content="About">                        
+                              <span class="nav-text" data-target="education">About</span>
+                              <svg class="icon animated-bounce-slide"  width="50" height="50" viewBox="0 0 22 22"  fill="none" 
+                              xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_2_596)">
+                            <path d="M12.7636 11.272L9.25 14.6259L5.73638 11.272C3.10301 11.381 1 13.4376 1 15.9759V16.3134C1
+                             17.245 1.79185 18.0009 2.76786 18.0009H15.7321C16.7081 18.0009 17.5 17.245 17.5 16.3134V15.9759C17.5 
+                             13.4376 15.397 11.381 12.7636 11.272ZM1.50089 2.80635L1.73661 2.85909V4.91221C1.47879 5.05987 1.29464 
+                             5.31651 1.29464 5.62589C1.29464 5.9212 1.46406 6.16729 1.70346 6.31846L1.12891 8.5087C1.06629 8.75128 
+                             1.20625 9.00089 1.40882 9.00089H2.94833C3.15089 9.00089 3.29085 8.75128 3.22824 8.5087L2.65368 6.31846C2.89308 
+                             6.16729 3.0625 5.9212 3.0625 5.62589C3.0625 5.31651 2.87835 5.05987 2.62054 4.91221V3.06299L5.05134 
+                             3.62198C4.7346 4.22667 4.53571 4.90167 4.53571 5.62589C4.53571 8.11143 6.64609 10.1259 9.25 10.1259C11.8539 
+                             10.1259 13.9643 8.11143 13.9643 5.62589C13.9643 4.90167 13.7691 4.22667 13.4487 3.62198L16.9954 2.80635C17.6657
+                              2.65166 17.6657 1.85362 16.9954 1.69893L9.98292 0.0817384C9.50413 -0.0272461 8.99955 -0.0272461 8.52076
+                               0.0817384L1.50089 1.69541C0.834263 1.8501 0.834263 2.65166 1.50089 2.80635Z" fill="currentColor"/>
+                            </g>
+                            <defs>
+                            <clipPath id="clip0_2_596">
+                            <rect width="18" height="18" fill="white"/>
+                            </clipPath>
+                            </defs>
+                            </svg>
+                         </a></li>   
+                          <li><a href="#" class="nav-link" data-target="Portfolio" data-tippy-content="Portfolio">                            
+                              <span class="nav-text" data-target="Portfolio" >Portfolio</span>
+                              <svg class="icon animated-bounce-slide"  width="50" height="50" viewBox="0 0 22 22" fill="none" 
+                              xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_2_600)">     
+                            <path d="M6.75 9.75V12H11.25V9.75H16.5V15C16.5 15.1989 16.421 15.3897 16.2803 15.5303C16.1397 
+                            15.671 15.9489 15.75 15.75 15.75H2.25C2.05109 15.75 1.86032 15.671 1.71967 15.5303C1.57902 15.3897 
+                            1.5 15.1989 1.5 15V9.75H6.75ZM8.25 8.25H9.75V10.5H8.25V8.25ZM5.25 3.75V1.5C5.25 1.30109 5.32902 
+                            1.11032 5.46967 0.96967C5.61032 0.829018 5.80109 0.75 6 0.75H12C12.1989 0.75 12.3897 0.829018 12.5303 
+                            0.96967C12.671 1.11032 12.75 1.30109 12.75 1.5V3.75H15.75C15.9489 3.75 16.1397 3.82902 16.2803 
+                            3.96967C16.421 4.11032 16.5 4.30109 16.5 4.5V8.25H11.25V6.75H6.75V8.25H1.5V4.5C1.5 4.30109 1.57902 
+                            4.11032 1.71967 3.96967C1.86032 3.82902 2.05109 3.75 2.25 3.75H5.25ZM6.75 2.25V3.75H11.25V2.25H6.75Z" fill="currentColor"/>
+                            </g>
+                            <defs>
+                            <clipPath id="clip0_2_600">
+                            <rect width="18" height="18" fill="white"/>
+                            </clipPath>
+                            </defs>
+                            </svg>
+
+                         </a></li>    
+                          <li><a href="#" class="nav-link" data-target="Blog" data-tippy-content="Blog">
+                              <span class="nav-text" data-target="Blog">Blog</span>
+                              <svg class="icon animated-bounce-slide"  width="50" height="50" viewBox="0 0 22 22"fill="none"
+                               xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_2_604)">
+                            <path d="M15.75 1.5C4.5 1.5 3 12 2.25 16.5H3.7485C4.248 14.0002 5.49825 12.6255 7.5 12.375C10.5 12
+                             12.75 9.375 13.5 7.125L12.375 6.375L13.125 5.625C13.875 4.875 14.628 3.75 15.75 1.5Z" fill="currentColor"/>
+                            </g>
+                            <defs>
+                            <clipPath id="clip0_2_604">
+                            <rect width="18" height="18" fill="white"/>
+                            </clipPath>
+                            </defs>
+                            </svg>
+                         </a></li>  
+
+                         <li><a href="#" data-target="contact-container" class="nav-link"  data-tippy-content="Contacts">
+                              <span class="nav-text" data-target="contact-content">Contacts</span>
+                              <svg class="icon animated-bounce-slide"  width="50" height="50" viewBox="0 0 22 22" fill="none" 
+                              xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_2_608)">
+                            <path d="M4.84125 14.25L1.5 16.875V3C1.5 2.80109 1.57902 2.61032 1.71967 2.46967C1.86032 2.32902
+                             2.05109 2.25 2.25 2.25H15.75C15.9489 2.25 16.1397 2.32902 16.2803 2.46967C16.421 2.61032 16.5 
+                             2.80109 16.5 3V13.5C16.5 13.6989 16.421 13.8897 16.2803 14.0303C16.1397 14.171 15.9489 14.25 
+                             15.75 14.25H4.84125Z" fill="currentColor"/>
+                            </g>
+                            <defs>
+                            <clipPath id="clip0_2_608">
+                            <rect width="18" height="18" fill="white"/>
+                            </clipPath>
+                            </defs>
+                            </svg>
+
+                         </a></li>                    
+                        </ul>
+                          </nav>
+                        
+
+                    </div>
+            </div>
+
+        </section>
+
+ <!-------------------Second-section-container-----------------------------> 
+        <section id="other-container">
+              <!-------------------price-container-----------------------------> 
+                <div class="price-container">
+                    <h2>Price Plan</h2>
+                    <p class="paragrph">Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                         do amet sint. Velit officia consequat duis
+                          enim velit mollit. lorem ipsum</p>
+
+                          <div class="price-box-container">
+                    <div class="price-box">
+                        <div class="top-content">
+                            <h2>Silver</h2>
+                            <div class="cost">
+                                <h3>$0.00</h3>
+                                 <p>/Hour</p>
+                            </div>
+                           
+                           <p>For most businesses that want to
+                                optimize web queries</p>
+                        </div>
+                        <div class="bottom-content">
+                            <div class="courses">
+                                <img src="/image/Check.svg" alt="Check">
+                                <p>UI Design</p>
+                            </div>
+                            <div class="courses">
+                                <img src="/image/Check.svg" alt="Check">
+                                <p>Web Development</p>
+                            </div>
+                            <div class="courses">
+                                <img src="/image/Close.svg" alt="Close">
+                                <p>Logo Design</p>
+                            </div>
+                            <div class="courses">
+                                <img src="/image/Close.svg" alt="Close">
+                                <p>Seo Optimization</p>
+                            </div>
+                            <div class="courses">
+                                <img src="/image/Close.svg" alt="Close">
+                                <p>WordPress Integration</p>
+                            </div>
+                            <div class="courses">
+                                <img src="/image/Close.svg" alt="Close">
+                                <p>5 Websites</p>
+                            </div>
+                            <div class="courses">
+                                <img src="/image/Close.svg" alt="Close">
+                                <p>Unlimited User</p>
+                            </div>
+                            <div class="courses">
+                                <img src="/image/Close.svg" alt="Close">
+                                <p>20 GB Bandwith</p>
+                            </div>
+                        </div>
+                        <div class="price-btn">
+                             <button class="order-btn" data-plan="Silver">ORDER NOW</button></div>
+                        
+                    </div>
+
+
+
+                    <div class="price-box">
+                          <div class="top-place">
+                                <p>Most Popular</p>
+                            </div>
+                         <div class="top-content">
+                          
+                            <h2>Gold</h2>
+                             <div class="cost">
+                                <h3>$50.00</h3>
+                                 <p>/Hour</p>
+                            </div>
+                           
+                           <p>For most businesses that want to
+                                optimize web queries</p>
+                        </div>
+                        <div class="bottom-content">
+                            <div class="courses">
+                                <img src="/image/Check.svg" alt="Check">
+                                <p>UI Design</p>
+                            </div>
+                            <div class="courses">
+                                <img src="/image/Check.svg" alt="Check">
+                                <p>Web Development</p>
+                            </div>
+                            <div class="courses">
+                               <img src="/image/Check.svg" alt="Check">
+                                <p>Logo Design</p>
+                            </div>
+                            <div class="courses">
+                                <img src="/image/Check.svg" alt="Check">
+                                <p>Seo Optimization</p>
+                            </div>
+                            <div class="courses">
+                                <img src="/image/Close.svg" alt="Close">
+                                <p>WordPress Integration</p>
+                            </div>
+                            <div class="courses">
+                                <img src="/image/Close.svg" alt="Close">
+                                <p>5 Websites</p>
+                            </div>
+                            <div class="courses">
+                                <img src="/image/Close.svg" alt="Close">
+                                <p>Unlimited User</p>
+                            </div>
+                            <div class="courses">
+                                <img src="/image/Close.svg" alt="Close">
+                                <p>20 GB Bandwith</p>
+                            </div>
+                        </div>
+                        <div class="price-btn">
+                            <button class="order-btn btn-secondary" data-plan="Gold">ORDER NOW</button>
+                        </div>
+                        
+                    </div>
+
+
+                    <div class="price-box">
+                        <div class="top-content">
+                            <h2>Diamond</h2>
+                             <div class="cost">
+                                <h3>$80.00</h3>
+                                 <p>/Hour</p>
+                            </div>
+                           
+                           <p>For most businesses that want to
+                                optimize web queries</p>
+                        </div>
+                        <div class="bottom-content">
+                            <div class="courses">
+                                <img src="/image/Check.svg" alt="Check">
+                                <p>UI Design</p>
+                            </div>
+                            <div class="courses">
+                                <img src="/image/Check.svg" alt="Check">
+                                <p>Web Development</p>
+                            </div>
+                            <div class="courses">
+                                 <img src="/image/Check.svg" alt="Check">
+                                <p>Logo Design</p>
+                            </div>
+                            <div class="courses">
+                                 <img src="/image/Check.svg" alt="Check">
+                                <p>Seo Optimization</p>
+                            </div>
+                            <div class="courses">
+                                 <img src="/image/Check.svg" alt="Check">
+                                <p>WordPress Integration</p>
+                            </div>
+                            <div class="courses">
+                                 <img src="/image/Check.svg" alt="Check">
+                                <p>5 Websites</p>
+                            </div>
+                            <div class="courses">
+                                 <img src="/image/Check.svg" alt="Check">
+                                <p>Unlimited User</p>
+                            </div>
+                            <div class="courses">
+                                 <img src="/image/Check.svg" alt="Check">
+                                <p>20 GB Bandwith</p>
+                            </div>
+                        </div>
+                        <div class="price-btn" > <button class="order-btn" data-plan="Diamond">ORDER NOW</button></div>
+                        
+                    </div>
+                    </div>
+
+                </div>
+
+        </section>
+
+
+
+
+
+
+
+       <!-------------------Third-section-container-----------------------------> 
+       <!-------------------Slider class-----------------------------> 
+       <section id="recommendations">
+                <div class="recommendation-container">
+                        <h1>Recommendations</h1>
+                        <div class="paragrph">
+                        <p>Amet minim mollit non deserunt ullamco 
+                       est sit aliqua dolor do amet sint. Velit
+                        officia consequat duis enim velit mollit.
+                         lorem ipsum</p>
+                        </div>
+            
+             <!-------------------Slider  Starts-----------------------------> 
+            <div class="slider-container" >
+            
+      <div class="slider-track">
+
+     <!-------------------Slider one----------------------------> 
+      <div class="slide no-anim"> 
+                         <div class="box-slide no-anim">
+                        <div class="star no-anim">
+                            <img src="/image/Star.svg" alt="Star">
+                            <img src="/image/Star.svg" alt="Star">
+                            <img src="/image/Star.svg" alt="Star">
+                            <img src="/image/Star.svg" alt="Star">
+                            <img src="/image/Star.svg" alt="Star">
+                        </div>
+                        <h3>Great Quality!</h3>
+                        <p>Lorem ipsum dolor sit amet, 
+                        consectetur adipiscing elit. Vitae
+                         nulla diam in ac dictum a urna viverra
+                          morbi. Morbi donec amet....</p>
+                        <div class="recommend-profile no-anim" >
+                            <div class="recommend-img no-anim">
+                                <img src="/image/Profile (2).svg" alt="Profile">
+                            </div>
+                            <div class="recommend-text no-anim">
+                                <h4>James Gouse</h4>
+                                <p>Graphic Designer</p>
+                            </div>
+                        </div>
+                    </div>
+    </div>
+     <!-------------------Slider two---------------------------> 
+    <div class="slide no-anim">
+         <div class=" box-slide no-anim">
+                           <div class="star no-anim">
+                            <img src="/image/Star.svg" alt="Star">
+                            <img src="/image/Star.svg" alt="Star">
+                            <img src="/image/Star.svg" alt="Star">
+                            <img src="/image/Star.svg" alt="Star">
+                            <img src="/image/Star.svg" alt="Star">
+                        </div>
+                        <h3>Amazing work!</h3>
+                        <p>Lorem ipsum dolor sit amet, 
+                        consectetur adipiscing elit. Vitae
+                         nulla diam in ac dictum a urna viverra
+                          morbi. Morbi donec amet....</p>
+                        <div class="recommend-profile no-anim">
+                            <div class="recommend-img no-anim">
+                                <img src="/image/Profile 4.svg" alt="Profile">
+                            </div>
+                            <div class="recommend-text no-anim">
+                                <h4>Tiana Philips</h4>
+                                <p>Photographer</p>
+                            </div>
+                        </div>
+                    </div>
+  </div>
+     <!-------------------Slider three--------------------------> 
+    <div class="slide no-anim">
+        <div class=" box-slide no-anim">
+                        <div class="star no-anim">
+                            <img src="/image/Star.svg" alt="Star">
+                            <img src="/image/Star.svg" alt="Star">
+                            <img src="/image/Star.svg" alt="Star">
+                            <img src="/image/Star.svg" alt="Star">
+                            <img src="/image/Star.svg" alt="Star">
+                        </div>
+                        <h3>Amazing work!</h3>
+                        <p>Lorem ipsum dolor sit amet, 
+                        consectetur adipiscing elit. Vitae
+                         nulla diam in ac dictum a urna viverra
+                          morbi. Morbi donec amet....</p>
+                        <div class="recommend-profile no-anim">
+                            <div class="recommend-img no-anim">
+                                <img src="/image/Profile (1).svg" alt="Profile">
+                            </div>
+                            <div class="recommend-text no-anim">
+                                <h4>Talan Westervelt</h4>
+                                <p>Business man</p>
+                            </div>
+                        </div>
+                  
+                </div>
+ </div>
+
+        <!-------------------Slider four--------------------------> 
+    <div class="slide no-anim">
+        <div class=" box-slide no-anim">
+                        <div class="star no-anim">
+                            <img src="/image/Star.svg" alt="Star">
+                            <img src="/image/Star.svg" alt="Star">
+                            <img src="/image/Star.svg" alt="Star">
+                            <img src="/image/Star.svg" alt="Star">
+                            <img src="/image/Star.svg" alt="Star">
+                        </div>
+                        <h3>Amazing work!</h3>
+                        <p>Lorem ipsum dolor sit amet, 
+                        consectetur adipiscing elit. Vitae
+                         nulla diam in ac dictum a urna viverra
+                          morbi. Morbi donec amet....</p>
+                        <div class="recommend-profile no-anim">
+                            <div class="recommend-img no-anim">
+                                <img src="/image/Profile (1).svg" alt="Profile">
+                            </div>
+                            <div class="recommend-text no-anim">
+                                <h4>Talan Westervelt</h4>
+                                <p>Business man</p>
+                            </div>
+                        </div>
+                  
+                </div>
+   </div>
+
+         <!-------------------Slider five--------------------------> 
+    <div class="slide no-anim">
+        <div class=" box-slide no-anim">
+                        <div class="star no-anim">
+                            <img src="/image/Star.svg" alt="Star">
+                            <img src="/image/Star.svg" alt="Star">
+                            <img src="/image/Star.svg" alt="Star">
+                            <img src="/image/Star.svg" alt="Star">
+                            <img src="/image/Star.svg" alt="Star">
+                        </div>
+                        <h3>Amazing work!</h3>
+                        <p>Lorem ipsum dolor sit amet, 
+                        consectetur adipiscing elit. Vitae
+                         nulla diam in ac dictum a urna viverra
+                          morbi. Morbi donec amet....</p>
+                        <div class="recommend-profile no-anim">
+                            <div class="recommend-img no-anim">
+                                <img src="/image/Profile (1).svg" alt="Profile">
+                            </div>
+                            <div class="recommend-text no-anim">
+                                <h4>Talan Westervelt</h4>
+                                <p>Business man</p>
+                            </div>
+                        </div>
+                  
+                </div>
+</div>
+
+    </div>
+
+  <!-- desktop-only range -->
+  <input type="range" id="slider-bar" min="0" max="100" value="0" />
+
+
+   </div>     
+     </div>    
+                     
+    </section>
+
+
+        <!-------------------four-section-container-----------------------------> 
+       <!-------------------four-section-container-----------------------------> 
+
+       <section id="education">
+                <h1>Education</h1>
+                <div class="paragrph">
+                 <p>Amet minim mollit non deserunt 
+                ullamco est sit aliqua dolor do amet
+                sint. Velit officia consequat duis enim 
+                velit mollit. lorem ipsum</p>
+                </div>
+
+                <div class="education-container">
+
+                    <div class="education-box">
+                        <div class="left-educate">
+                            <h3>University of Uyo</h3>
+                        <div class="below-group">
+                            <p>Student</p>
+                            <div class="inner-shape">
+                                <p>Jan 1016 - Dec 2021</p>
+                             </div>
+                               </div>
+                        </div>
+
+                        <div class="right-educate">
+                            <h4>Certificate of Medical Physiology</h4>
+                            <div class="inner-text">
+                                <p>Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. Amet dapibus nibh ut
+                                    faucibus nunc, egestas id amet porttitor. 
+                                    Pulvinar quisque sed amet, nulla nunc.
+                                    Eleifend sodales posuere fusce tempus etiam
+                                    et pellentesque. Molestie risus enim neque eget dui.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="education-box">
+                        <div class="left-educate">
+                            <h3>Programming Course</h3>
+                      
+                        <div class="below-group">
+                            <p>Student</p>
+                            <div class="inner-shape">
+                                <p>Jan 1016 - Dec 2021</p>
+                            </div>
+                              </div>
+                        </div>
+
+                        <div class="right-educate">
+                            <h4>Certificate of web training</h4>
+                            <div class="inner-text">
+                                <p>Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. Amet dapibus nibh ut
+                                    faucibus nunc, egestas id amet porttitor. 
+                                    Pulvinar quisque sed amet, nulla nunc.
+                                    Eleifend sodales posuere fusce tempus etiam
+                                    et pellentesque. Molestie risus enim neque eget dui.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="education-box">
+                        <div class="left-educate">
+                            <h3>Web developer courses</h3>
+                        <div class="below-group">
+                            <p>Student</p>
+                            <div class="inner-shape">
+                                <p>Jan 1016 - Dec 2021</p>
+                            </div>
+                             </div>
+                        </div>
+
+                        <div class="right-educate">
+                            <h4>Certificate of web training </h4>
+                            <div class="inner-text">
+                                <p>Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. Amet dapibus nibh ut
+                                    faucibus nunc, egestas id amet porttitor. 
+                                    Pulvinar quisque sed amet, nulla nunc.
+                                    Eleifend sodales posuere fusce tempus etiam
+                                    et pellentesque. Molestie risus enim neque eget dui.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
+       </section>
+
+
+
+       <!-------------------fifth-section-container-----------------------------> 
+       <!-------------------fifth-section-container-----------------------------> 
+       <section id="Work-history">
+                <h1>Work History</h1>
+                <div class="paragrph">
+                 <p>Amet minim mollit non deserunt 
+                ullamco est sit aliqua dolor do amet
+                sint. Velit officia consequat duis enim 
+                velit mollit. lorem ipsum</p>
+                </div>
+
+                <div class="Work-container">
+
+                    <div class="Work-box">
+                        <div class="left-Work">
+                            <h3>Lead Web Designer</h3>
+                      
+                        <div class="below-group">
+                            <p>Student</p>
+                            <div class="inner-shape">
+                                <p>Jan 1016 - Dec 2021</p>
+                            </div>
+                              </div>
+                        </div>
+
+                        <div class="right-Work">
+                            <h4>Certificate of web training</h4>
+                            <div class="inner-text">
+                                <p>Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. Amet dapibus nibh ut
+                                    faucibus nunc, egestas id amet porttitor. 
+                                    Pulvinar quisque sed amet, nulla nunc.
+                                    Eleifend sodales posuere fusce tempus etiam
+                                    et pellentesque. Molestie risus enim neque eget dui.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="Work-box">
+                        <div class="left-educate">
+                            <h3>Junior Web Designer</h3>
+                       
+                        <div class="below-group">
+                            <p>Student</p>
+                            <div class="inner-shape">
+                                <p>Jan 1016 - Dec 2021</p>
+                            </div>
+                             </div>
+                        </div>
+
+                        <div class="right-Work">
+                            <h4>Certificate of web training</h4>
+                            <div class="inner-text">
+                                <p>Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. Amet dapibus nibh ut
+                                    faucibus nunc, egestas id amet porttitor. 
+                                    Pulvinar quisque sed amet, nulla nunc.
+                                    Eleifend sodales posuere fusce tempus etiam
+                                    et pellentesque. Molestie risus enim neque eget dui.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="Work-box">
+                        <div class="left-Work">
+                            <h3>Senior Web Designer</h3>
+                       
+                        <div class="below-group">
+                            <p>Student</p>
+                            <div class="inner-shape">
+                                <p>Jan 1016 - Dec 2021</p>
+                            </div>
+                             </div>
+                        </div>
+
+                        <div class="right-Work">
+                            <h4>Certificate of web training </h4>
+                            <div class="inner-text">
+                                <p>Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. Amet dapibus nibh ut
+                                    faucibus nunc, egestas id amet porttitor. 
+                                    Pulvinar quisque sed amet, nulla nunc.
+                                    Eleifend sodales posuere fusce tempus etiam
+                                    et pellentesque. Molestie risus enim neque eget dui.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
+       </section>
+
+
+
+        <!-------------------sixth-section-container-----------------------------> 
+        <!-------------------sixth-section-container-----------------------------> 
+          <section id="Portfolio" data-category-id="1" >
+                    <h1>Portfolio</h1>
+                    <div class="paragrph">
+                    <p>Amet minim mollit non deserunt 
+                    ullamco est sit aliqua dolor do amet
+                    sint. Velit officia consequat duis enim 
+                    velit mollit. lorem ipsum</p>
+                    </div>
+
+                    <div class="Portfolio-tabs">
+                        <h6 data-category-id="1" class="active">All Categories</h6>
+                        <h6 data-category-id="2">Websites</h6>
+                        <h6 data-category-id="3">Apps</h6>
+                        <h6 data-category-id="4">Design</h6>
+                    </div>
+
+                                          <div class="Portfolio-grid">
+  <!-- Images -->
+  <img src="/image/ux-1.png" data-category-id="2" alt="image">
+  <img src="/image/ux-2.png" data-category-id="2" alt="image">
+  <img src="/image/ux-3.png" data-category-id="2" alt="image">
+  <img src="/image/ux-4.png" data-category-id="2" alt="image">
+  <img src="/image/ux-5.png" data-category-id="2" alt="image">
+  <img src="/image/brand-1.png" data-category-id="2" alt="image">
+  <img src="/image/brand-2.png" data-category-id="2" alt="image">
+
+  <img src="/image/web-1.png" data-category-id="3" alt="image">
+  <img src="/image/web-2.png" data-category-id="3" alt="image">
+  <img src="/image/web-3.png" data-category-id="3" alt="image">
+  <img src="/image/web-4.png" data-category-id="3" alt="image">
+  <img src="/image/web-5.png" data-category-id="3" alt="image">
+  <img src="/image/brand-4.png" data-category-id="3" alt="image">
+  <img src="/image/brand-5.png" data-category-id="3" alt="image">
+
+  <img src="/image/logo-1.png" data-category-id="4" alt="image">
+  <img src="/image/logo-2.png" data-category-id="4" alt="image">
+  <img src="/image/logo-3.png" data-category-id="4" alt="image">
+  <img src="/image/logo-4.png" data-category-id="4" alt="image">
+  <img src="/image/logo-5.png" data-category-id="4" alt="image">
+  <img src="/image/brand-3.png" data-category-id="4" alt="image">
+
+  <!-- Overlay goes last -->
+  <div class="more-overlay ">+0</div>
+</div>
+ </section>
+
+
+
+         <!-------------------seventh-section-container-----------------------------> 
+       <!-------------------seventh-section-container-----------------------------> 
+       <section id="Blog">
+            <h1>Blog</h1>
+                 <div class="paragrph">
+                 <p>Amet minim mollit non deserunt 
+                ullamco est sit aliqua dolor do amet
+                sint. Velit officia consequat duis enim 
+                velit mollit. lorem ipsum</p>
+                </div>
+
+                <div class="blog-container">
+
+                    <div class="blog-box">
+                        <img class="blog-img" src="/image/Image.png" alt="image">
+                        <div class="blog-text">
+                            <h4>How to make web tempates</h4>
+                            <p>Lorem ipsum dolor sit amet,
+                                consectetur adipiscing elit.
+                                Vitae nulla diam in ac dictum a urna </p>
+                                <div class="blog-sub">
+                                    <h5>Learn more</h5>
+                                    <img src="/image/direction.svg" alt="direction.">
+                                </div>
+                                
+                        </div>
+                    </div>
+                    <div class="blog-box">
+                            <img class="blog-img" src="/image/Iamge.png" alt="image">
+                        <div class="blog-text">
+                            <h4>make Business card</h4>
+                            <p>Lorem ipsum dolor sit amet,
+                                consectetur adipiscing elit.
+                                Vitae nulla diam in ac dictum a urna </p>
+                                <div class="blog-sub">
+                                    <h5>Learn more</h5>
+                                    <img src="/image/direction.svg" alt="direction.">
+                                </div>
+                                
+                        </div>
+                    </div>
+                    <div class="blog-box">
+                         <img class="blog-img" src="/image/Image (1).png" alt="image">
+                        <div class="blog-text">
+                            <h4>make Business card</h4>
+                            <p>Lorem ipsum dolor sit amet,
+                                consectetur adipiscing elit.
+                                Vitae nulla diam in ac dictum a urna </p>
+                                <div class="blog-sub">
+                                    <h5>Learn more</h5>
+                                    <img  src="/image/direction.svg" alt="direction.">
+                                </div>
+                                
+                        </div>
+                    </div>
+                </div>
+
+
+       </section>
+
+
+    <!-------------------eighth-section-container-----------------------------> 
+       <!-------------------eighth-section-container-----------------------------> 
+    
+       <section id="contact-container">
+
+        <div class="contact-content">
+
+            <div class="contact-box-one">
+                <h2>Leave us your info</h2>
+                <div class="contact-info">
+                    <div class="name-group">
+                        <h5>Your Full Name ( Required)</h5>
+                        <input type="text" name="" id="name-box">
+                    </div>
+
+                     <div class="name-group">
+                        <h5>Your Email ( Required)</h5>
+                        <input type="text" name="" id="name-box">
+                    </div>
+
+                    
+                     <div class="name-group">
+                        <h5>Subject</h5>
+                        <input type="text" name="" id="name-box">
+                    </div>
+
+                    <div class="name-group">
+                        <h5>Your Message</h5>
+                         <textarea  id="Message-info" name="message" 
+                         placeholder="" rows="8"  required></textarea>
+                    </div>
+                    <button class="send-btn">send message</button>
+
+
+
+                    
+                    
+                </div>
+            </div>
+
+            <div class="contact-box-two">
+                <h2>Contact information</h2>
+
+                <div class="con-info">
+                    <div class="con-img">
+                        <img src="image/location.svg" alt="icon">
+                    </div>
+                    <div class="info-text">
+                        <div class="info-Q-A">
+                            <h5>Country:</h5>
+                            <h6>Nigeria</h6>
+                        </div>
+                        <div class="info-Q-A">
+                            <h5>City:</h5>
+                            <h6>Uyo</h6>
+                        </div>
+                        <div class="info-Q-A">
+                            <h5>Street:</h5>
+                            <h6> Nwaniba Road</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="con-info">
+                      <div class="con-img">
+                        <img src="image/mail.svg" alt="icon">
+                    </div>
+                    <div class="info-text">
+                        <div class="info-Q-A">
+                            <h5>Email::</h5>
+                            <h6>joshuahon7@gmail.com</h6>
+                        </div>
+                        <div class="info-Q-A">
+                            <h5>Instagram:</h5>
+                            <h6>thejshshow</h6>
+                        </div>
+                        <div class="info-Q-A">
+                            <h5>Facebook</h5>
+                            <h6>josh Ua</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="con-info">
+                      <div class="con-img">
+                        <img src="image/Mobile.svg" alt="icon">
+                    </div>
+                    <div class="info-text">
+                        <div class="info-Q-A">
+                            <h5>Country Code:</h5>
+                            <h6>+234</h6>
+                        </div>
+                        <div class="info-Q-A">
+                            <h5>Office:</h5>
+                            <h6>+2348 02388 0596</h6>
+                        </div>
+                        <div class="info-Q-A">
+                            <h5>WhatsApp</h5>
+                            <h6>+2348 02388 0596</h6>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            </div>
+
+       </section>
+      
+
+       <!-------------------Location-section-container-----------------------------> 
+       <!-------------------Location-section-container-----------------------------> 
+       <section id="location">
+
+               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3974.465682995035!2d7.9427081!3d5.027961299999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x105d57ec76567f11%3A0x33b995277c874ea2!2sNwaniba%20Rd%2C%20Uyo%2C%20Akwa%20Ibom!5e0!3m2!1sen!2sng!4v1753646382234!5m2!1sen!2sng"
+                 width="100%"
+                height="300"
+                style="border:0;" 
+                allowfullscreen=""
+                 loading="lazy" 
+                 referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+       </section>
+       
+        <!-------------------Last-section-container-----------------------------> 
+       <!-------------------Last-section-container----------------------------->
+       <section id="copyright">
+        <h5>2025 All Rights Reserved. Jcraft</h5>
+       </section> 
+
+
+
+       <!-------------------ORDER FORUM-----------------------------> 
+
+<div id="order-modal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Order Form</h2>
+
+        <!-- Order Form -->
+        <form id="order-form">
+            <div class="label-box">
+                <label>Selected Plan</label>
+                <input type="text" id="order-plan" name="selected-plan" readonly>
+            </div>
+
+            <div class="label-box">
+                <label>Your Name</label>
+                <input type="text" name="name" required>
+            </div>
+
+            <div class="label-box">
+                <label>Email</label>
+                <input type="email" name="_replyto" required>
+            </div>
+
+            <div class="label-box">
+                <label>Project Details/requirements</label>
+                <textarea name="project-details"></textarea>
+            </div>
+
+            <div class="label-box">
+                <button type="submit">Submit Order</button>
+            </div>
+        </form>
+
+        <!-- Thank You / Status Message -->
+        <p id="form-status" style="display:none; text-align:center; font-weight:bold;">
+            ✅ Thank you! Your order has been sent.
+        </p>
+    </div>
+</div>
+
+</body>
+</html>
